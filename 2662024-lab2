@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>2662024-lab2</title>
+        <style>
+            .header{
+                background-color: black;
+                color: white;
+                text-align: center;
+            }
+            nav{
+                display: flex;
+                justify-content: center;
+                margin: 0 15px;
+                border-width: 5px;
+            }
+            nav a{
+                margin: 0 15px;
+            }
+            body{
+                background-color: #F8F0E3;
+            }
+            h2{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+       <h1 class="header"> Welcome to Cameron's Portfolio</h1> 
+       <nav>
+            
+            <a href="#"> Home </a>
+            <a href="#"> Projects </a>
+            <a href="#"> Contacts </a>
+       </nav>
+       <main>
+            <section>
+                <h2>About me</h2>
+                <p>
+                    Hello my name Cameron Padiachy. I am a thrid year student at the University of Witwaterstrand. I am hoping to get into the honors and masters program for Data Science. My interests include tech (the latest gadgets and advancemnets in AI), football and i enjoy gymming.
+                </p>
+            </section>
+            <section>
+                <h3>Latest project</h3>
+                <article>
+                    With the recent bull run in crypto I decided to explore how bitcoin is mined. As a result I've decided to code my own bitcoin miner. More specifically im woprking on a SHA256 hasher.
+                </article>
+            </section>
+       </main>
+       <footer> © 2025 | Built with Semantic HTML </footer>
+    </body>
+</html>
